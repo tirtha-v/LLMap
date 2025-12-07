@@ -1,0 +1,179 @@
+Meta llama model:
+
+0-shot:
+Validation accuracy: 0.3438
+Validation macro-F1: 0.3366
+Test (ID) accuracy: 0.3212
+Test (ID) macro-F1: 0.3164
+Test (OOD) accuracy: 0.4545
+Test (OOD) macro-F1: 0.4167
+
+1-shot:
+Validation accuracy: 0.2604
+Validation macro-F1: 0.2143
+Test (ID) accuracy: 0.2435
+Test (ID) macro-F1: 0.2170
+Test (OOD) accuracy: 0.1818
+Test (OOD) macro-F1: 0.1250
+
+2-shot:
+Validation accuracy: 0.2448
+Validation macro-F1: 0.2560
+Test (ID) accuracy: 0.2902
+Test (ID) macro-F1: 0.3103
+Test (OOD) accuracy: 0.3636
+Test (OOD) macro-F1: 0.3077
+
+3-shot:
+Validation accuracy: 0.3177
+Validation macro-F1: 0.2741
+Test (ID) accuracy: 0.2902
+Test (ID) macro-F1: 0.2478
+Test (OOD) accuracy: 0.3636
+Test (OOD) macro-F1: 0.2692
+
+4-shot:
+Validation accuracy: 0.2083
+Validation macro-F1: 0.2243
+Test (ID) accuracy: 0.2073
+Test (ID) macro-F1: 0.1983
+Test (OOD) accuracy: 0.5455
+Test (OOD) macro-F1: 0.4615
+
+5-shot:
+Validation accuracy: 0.2188
+Validation macro-F1: 0.1876
+Test (ID) accuracy: 0.2798
+Test (ID) macro-F1: 0.2608
+Test (OOD) accuracy: 0.5455
+Test (OOD) macro-F1: 0.4444
+
+6-shot:
+Validation accuracy: 0.2240
+Validation macro-F1: 0.1879
+Test (ID) accuracy: 0.2176
+Test (ID) macro-F1: 0.2120
+Test (OOD) accuracy: 0.3636
+Test (OOD) macro-F1: 0.2262
+
+7-shot:
+Validation accuracy: 0.2552
+Validation macro-F1: 0.2605
+Test (ID) accuracy: 0.2021
+Test (ID) macro-F1: 0.1641
+Test (OOD) accuracy: 0.5455
+Test (OOD) macro-F1: 0.4722
+
+8-shot:
+Validation accuracy: 0.2344
+Validation macro-F1: 0.1745
+Test (ID) accuracy: 0.2124
+Test (ID) macro-F1: 0.1968
+Test (OOD) accuracy: 0.4545
+Test (OOD) macro-F1: 0.4167
+
+9-shot:
+Validation accuracy: 0.1875
+Validation macro-F1: 0.1480
+Test (ID) accuracy: 0.1451
+Test (ID) macro-F1: 0.0847
+Test (OOD) accuracy: 0.2727
+Test (OOD) macro-F1: 0.2308
+
+10-shot:
+Validation accuracy: 0.1979
+Validation macro-F1: 0.1546
+Test (ID) accuracy: 0.2176
+Test (ID) macro-F1: 0.1920
+Test (OOD) accuracy: 0.1818
+Test (OOD) macro-F1: 0.1389
+
+Mistral model:
+
+0-shot:
+Validation accuracy: 0.6198
+Validation macro-F1: 0.6140
+Test (ID) accuracy: 0.6528
+Test (ID) macro-F1: 0.6446
+Test (OOD) accuracy: 0.5455
+Test (OOD) macro-F1: 0.4048
+
+1-shot:
+Validation accuracy: 0.7500
+Validation macro-F1: 0.6958
+Test (ID) accuracy: 0.7565
+Test (ID) macro-F1: 0.7090
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.7222
+
+2-shot:
+Validation accuracy: 0.7188
+Validation macro-F1: 0.7284
+Test (ID) accuracy: 0.7668
+Test (ID) macro-F1: 0.7204
+Test (OOD) accuracy: 0.7273
+Test (OOD) macro-F1: 0.6154
+
+3-shot:
+Validation accuracy: 0.7552
+Validation macro-F1: 0.7433
+Test (ID) accuracy: 0.7772
+Test (ID) macro-F1: 0.7358
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.6923
+
+4-shot:
+Validation accuracy: 0.7396
+Validation macro-F1: 0.7302
+Test (ID) accuracy: 0.7720
+Test (ID) macro-F1: 0.7087
+Test (OOD) accuracy: 0.6364
+Test (OOD) macro-F1: 0.4762
+
+5-shot:
+Validation accuracy: 0.7656
+Validation macro-F1: 0.7594
+Test (ID) accuracy: 0.8135
+Test (ID) macro-F1: 0.7618
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.7222
+
+6-shot:
+Validation accuracy: 0.7917
+Validation macro-F1: 0.7782
+Test (ID) accuracy: 0.8342
+Test (ID) macro-F1: 0.7847
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.7222
+
+7-shot:
+Validation accuracy: 0.7760
+Validation macro-F1: 0.7660
+Test (ID) accuracy: 0.8031
+Test (ID) macro-F1: 0.7512
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.6923
+
+8-shot:
+Validation accuracy: 0.8073
+Validation macro-F1: 0.7980
+Test (ID) accuracy: 0.8394
+Test (ID) macro-F1: 0.7893
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.7222
+
+9-shot:
+Validation accuracy: 0.7865
+Validation macro-F1: 0.7762
+Test (ID) accuracy: 0.8290
+Test (ID) macro-F1: 0.7755
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.7222
+
+10-shot:
+Validation accuracy: 0.7969
+Validation macro-F1: 0.7882
+Test (ID) accuracy: 0.8135
+Test (ID) macro-F1: 0.7436
+Test (OOD) accuracy: 0.8182
+Test (OOD) macro-F1: 0.7222
