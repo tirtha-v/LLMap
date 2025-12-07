@@ -1,2 +1,5 @@
 # LLMap
 LLM-Based Field Mapping for Materials Datasets
+
+## Abstract
+We study field-level schema mapping for materials-science databases using large language models (LLMs). Given a raw field name from sources such as Materials Project, OQMD, Alexandria, JARVIS--DFT and AFLOW, the task is to predict a single target column from the OPTIMADE-compatible LeMaterial schema. We formulate this as multiclass text classification and compare two adaptation modes---(i) in-context learning (ICL) with Llama-3.1-8B and Mistral-7B, and (ii) parameter-efficient finetuning (PEFT, QLoRA) of Llama-3.1-8B and Phi-3-Mini---under both in-domain and out-of-domain (OMat24) evaluation. We further study a back-translation augmentation strategy that generates synthetic raw field names. Our main findings are: Mistral-7B is a strong ICL baseline, but Llama-3.1-8B with QLoRA clearly dominates after finetuning; small models like Phi-3-Mini underfit even with PEFT; and back-translation is beneficial only when combined with finetuning, substantially improving OOD macro-F1. 
